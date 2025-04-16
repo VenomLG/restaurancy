@@ -7,5 +7,6 @@ export default async function RestaurantPage({params}: {params: Promise<{id: str
 
   return (
     <RestaurantCard restaurant={restaurant} />
+    
   );
 }
